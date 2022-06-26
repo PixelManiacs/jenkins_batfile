@@ -4,6 +4,7 @@ pipeline {
         stage('Bat')
         {
             steps {
+                echo "Build & Cook"
                 bat "luku bat"
             }
         }
